@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Refugio - Un mensaje para tu corazon</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- RIBBON UNIVERSIDAD -->
+  <div class="ribbon-universidad">
+    <div class="contenedor ribbon-inner">
+      <img src="logo-asturias.png" alt="Corporacion Universitaria de Asturias" class="ribbon-logo" />
+      <span class="ribbon-texto">Corporacion Universitaria de Asturias</span>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-content">
+      <h1>&#10013; Refugio</h1>
+      <p class="subtitulo">Un mensaje para tu corazon</p>
+    </div>
+  </header>
+
+  <!-- INTRODUCCION -->
+  <section id="intro" class="seccion">
+    <div class="contenedor">
+      <h2>Bienvenido</h2>
+      <p class="intro-texto">
+        No importa como te sientas hoy, hay una palabra especial esperando por ti.
+        La Biblia ha sido fuente de consuelo, esperanza y fortaleza para millones de personas
+        a lo largo de la historia. Aqui encontraras un mensaje pensado para lo que tu corazon
+        necesita en este momento. Selecciona como te sientes y deja que la Palabra de Dios
+        hable a tu vida.
+      </p>
+    </div>
+  </section>
+
+  <!-- SELECTOR DE EMOCIONES -->
+  <section id="emociones" class="seccion seccion-oscura">
+    <div class="contenedor">
+      <h2>Como te sientes hoy?</h2>
+      <p class="emocion-subtitulo">Selecciona una emocion y recibe tu mensaje</p>
+      <div class="emociones-grid">
+        <button class="emocion-btn" data-emocion="triste">
+          <span class="emocion-icono">&#128546;</span>
+          <span class="emocion-texto">Triste</span>
+        </button>
+        <button class="emocion-btn" data-emocion="ansioso">
+          <span class="emocion-icono">&#128560;</span>
+          <span class="emocion-texto">Ansioso</span>
+        </button>
+        <button class="emocion-btn" data-emocion="enojado">
+          <span class="emocion-icono">&#128548;</span>
+          <span class="emocion-texto">Enojado</span>
+        </button>
+        <button class="emocion-btn" data-emocion="solo">
+          <span class="emocion-icono">&#128532;</span>
+          <span class="emocion-texto">Solo</span>
+        </button>
+        <button class="emocion-btn" data-emocion="desanimado">
+          <span class="emocion-icono">&#128543;</span>
+          <span class="emocion-texto">Desanimado</span>
+        </button>
+        <button class="emocion-btn" data-emocion="agradecido">
+          <span class="emocion-icono">&#128591;</span>
+          <span class="emocion-texto">Agradecido</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- TARJETA DE MENSAJE -->
+  <section id="tarjeta-seccion" class="seccion tarjeta-oculta">
+    <div class="contenedor">
+      <div class="tarjeta">
+        <div class="tarjeta-icono">&#128214;</div>
+        <h3 class="tarjeta-versiculo" id="tarjeta-versiculo"></h3>
+        <p class="tarjeta-texto" id="tarjeta-texto"></p>
+        <div class="tarjeta-separador"></div>
+        <p class="tarjeta-aliento" id="tarjeta-aliento"></p>
+        <button class="btn-otro" id="btn-otro-mensaje">Recibir otro mensaje</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section id="galeria" class="seccion">
+    <div class="contenedor">
+      <h2>Galeria de Inspiracion</h2>
+      <p class="galeria-subtitulo">Paisajes biblicos que invitan a la reflexion</p>
+      <div class="galeria-grid">
+        <div class="galeria-item">
+          <img src="https://images.unsplash.com/photo-1549877452-9c387954fbc2?w=400&h=300&fit=crop" alt="Jerusalen" />
+          <div class="galeria-overlay">
+            <p>Jerusalen - Ciudad Santa</p>
+          </div>
+        </div>
+        <div class="galeria-item">
+          <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=300&fit=crop" alt="Campo de trigo" />
+          <div class="galeria-overlay">
+            <p>Los campos del Senor</p>
+          </div>
+        </div>
+        <div class="galeria-item">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop" alt="Montanas" />
+          <div class="galeria-overlay">
+            <p>Alzare mis ojos a los montes</p>
+          </div>
+        </div>
+        <div class="galeria-item">
+          <img src="https://images.unsplash.com/photo-1505144808419-1957a94ca61e?w=400&h=300&fit=crop" alt="Amanecer en el mar" />
+          <div class="galeria-overlay">
+            <p>A la manana vendra la alegria</p>
+          </div>
+        </div>
+        <div class="galeria-item">
+          <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400&h=300&fit=crop" alt="Bosque con luz" />
+          <div class="galeria-overlay">
+            <p>Tu palabra es lampara a mis pies</p>
+          </div>
+        </div>
+        <div class="galeria-item">
+          <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&h=300&fit=crop" alt="Cielo estrellado" />
+          <div class="galeria-overlay">
+            <p>El cielo cuenta la gloria de Dios</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS / COMENTARIOS -->
+  <section id="testimonios" class="seccion seccion-oscura">
+    <div class="contenedor">
+      <h2>Comparte tu Testimonio</h2>
+      <p class="testimonio-subtitulo">Cuentanos como te ayudo este mensaje hoy</p>
+
+      <form id="form-comentario" class="formulario">
+        <div class="campo">
+          <label for="nombre">Tu nombre</label>
+          <input type="text" id="nombre" placeholder="Escribe tu nombre..." required />
+        </div>
+        <div class="campo">
+          <label for="mensaje">Tu testimonio o reflexion</label>
+          <textarea id="mensaje" rows="4" placeholder="Comparte como te sientes o como te ayudo el mensaje..." required></textarea>
+        </div>
+        <button type="submit" class="btn-enviar">Enviar Testimonio</button>
+      </form>
+
+      <div id="lista-comentarios" class="lista-comentarios">
+        <!-- Los comentarios se cargan dinamicamente -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="contenedor">
+      <p>&#10013; Refugio - Un mensaje para tu corazon</p>
+      <p class="footer-small">Hecho con fe y proposito | Todos los versiculos tomados de la Biblia Reina Valera 1960</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
